@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+double sum=0,n,x;
+
+int main()
+{   
+    cout<<"Nhap x  :";
+    cin>>x;
+    
+    cout<<"Nhap n  :";
+    cin>>n;
+    
+    for (int i=1;i<=n;i++)
+    {   
+        sum=sum+pow(x,i);
+    }
+    cout<<sum;
+}
